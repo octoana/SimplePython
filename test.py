@@ -8,6 +8,9 @@ password = 'Password1234'
 
 google_api_token = "AIzaSyAQfxPJiounkhOjODEO5ZieffeBv6yft2Q"
 
+# fake AWS key for testing, adding the pair on two separated files
+aws_access_key_id = AKIAT4GVSAXXJMW2S4FF
+
 # main
 if __name__ == '__main__':
 
