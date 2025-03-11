@@ -7,6 +7,12 @@ from dotenv import load_dotenv
 user = 'test'
 password = 'Password1234'
 
+# critical vuln example
+user_input = input("Enter filename to read: ")
+with open(user_input, 'r') as file:  # Vulnerable to directory traversal
+    content = file.read()
+
+
 google_api_token = "AIzaSyAQfxPJiounkhOjODEO5ZieffeBv6yft2Q"
 gh_PAT = "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"
 
