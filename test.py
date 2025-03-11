@@ -13,7 +13,7 @@ gh_PAT = "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"
 # main
 if __name__ == '__main__':
 
-# critical vuln example
+# critical vuln example APS
 user_input = input("Enter filename to read: ")
 with open(user_input, 'r') as file:  # Vulnerable to directory traversal
     content = file.read()
